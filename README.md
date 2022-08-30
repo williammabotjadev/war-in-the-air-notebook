@@ -41,3 +41,7 @@ s3://war-in-the-air/images/post/
 The Model can be tweaked to any Activation Algorithm of your Choice but it uses RELU as a default. You may also expand on the Training of the Model with a different Epoch amount, the default is 3. 
 
 The Study aims to go deeper into analyzing the data, that has been converted from Tif to PNG through the Code at https://github.com/williammabotjadev/war-in-the-air. 
+
+## AWS SageMaker Image Link
+
+https://d-ag1d6eoyav4a.studio.us-east-1.sagemaker.aws/jupyter/default/lab?sagemaker-share-id=5k9tJjLp4ltSOqHl4yfwhUIx-9_01EfzGJgzUqlDuSY%3D
