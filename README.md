@@ -37,11 +37,13 @@ s3://war-in-the-air/images/post/
 
 <code>mkdir pre</code>
 <br />
+<br />
 <code>cd pre</code>
+<br />
 <br />
 <code>aws s3 sync --no-sign-request s3://war-in-the-air/images/pre .</code> 
 <br />
-
+<br />
 The Model can be tweaked to any Activation Algorithm of your Choice but it uses RELU as a default. You may also expand on the Training of the Model with a different Epoch amount, the default is 3. 
 
 The Study aims to go deeper into analyzing the data, that has been converted from Tif to PNG through the Code at https://github.com/williammabotjadev/war-in-the-air. 
