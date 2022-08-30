@@ -14,6 +14,31 @@ The Code to compile fresh data or use current dataset can be found at https://gi
 
 To Use the current dataset, you just need to upload the folders <strong>pre_images</strong>, <strong>post_images</strong>, <strong>immi_images</strong> and <strong>mid_images</strong> into sub-directories of a local folder called 'images', or any name as <strong>pre</strong>, <strong>post</strong>, <strong>immi</strong> and <strong>mid</strong> respectively. 
 
+<h5>S3 Options are also available for the Current Image Dataset</h5>
+
+<strong>The Bucket Addresses for Each Class</strong>
+
+<strong>immi class</strong>
+s3://war-in-the-air/images/immi/
+
+
+<strong>pre class</strong>
+s3://war-in-the-air/images/pre/
+
+
+<strong>mid class</strong>
+s3://war-in-the-air/images/mid/
+
+
+<strong>post class</strong>
+s3://war-in-the-air/images/post/
+
+<strong>Download Example</strong>
+
+<code>mkdir pre</code>
+<code>cd pre</code>
+<code>aws s3 sync --no-sign-request s3://war-in-the-air/images/pre .</code> 
+
 The Model can be tweaked to any Activation Algorithm of your Choice but it uses RELU as a default. You may also expand on the Training of the Model with a different Epoch amount, the default is 3. 
 
 The Study aims to go deeper into analyzing the data, that has been converted from Tif to PNG through the Code at https://github.com/williammabotjadev/war-in-the-air. 
