@@ -45,3 +45,7 @@ The Study aims to go deeper into analyzing the data, that has been converted fro
 ## AWS SageMaker Image Link
 
 https://d-ag1d6eoyav4a.studio.us-east-1.sagemaker.aws/jupyter/default/lab?sagemaker-share-id=5k9tJjLp4ltSOqHl4yfwhUIx-9_01EfzGJgzUqlDuSY%3D
+
+### Training Model Image
+
+https://d-ag1d6eoyav4a.studio.us-east-1.sagemaker.aws/jupyter/default/lab?sagemaker-share-id=nKRD2rOYLwZcX573UgiWg24SeepxA5xwTwIO7vL7yYg%3D
