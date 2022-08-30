@@ -35,8 +35,6 @@ s3://war-in-the-air/images/post/
 
 <strong>Download Example</strong>
 
-<br />
-<br />
 <code>aws s3 sync --no-sign-request s3://war-in-the-air/images/pre .</code> 
 <br />
 <br />
