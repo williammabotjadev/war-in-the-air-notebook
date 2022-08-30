@@ -35,7 +35,7 @@ s3://war-in-the-air/images/post/
 
 <strong>Download Example</strong>
 
-<code>aws s3 sync --no-sign-request s3://war-in-the-air/images/pre .</code> 
+<code>aws s3 sync --no-sign-request s3://war-in-the-air/images/pre pre/</code> 
 <br />
 <br />
 The Model can be tweaked to any Activation Algorithm of your Choice but it uses RELU as a default. You may also expand on the Training of the Model with a different Epoch amount, the default is 3. 
